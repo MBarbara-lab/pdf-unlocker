@@ -1,0 +1,26 @@
+@import './../../pages/Home/Home.css';
+
+.form__file {
+    position: relative;
+    display: grid;
+    align-items: center;
+    background-color: #ff3737;
+}
+
+.form__file__placeholder {
+    position: absolute;
+    padding: 0.5vh 4vh;
+    margin: 0;
+}
+
+.upload-icon {
+    position: absolute;
+    font-size: 1.6rem;
+    justify-self: flex-end;
+    padding: 0.5vh 2vh;
+}
+
+.form__file > input {
+    width: 100%;
+    opacity: 0;
+}
